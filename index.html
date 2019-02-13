@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>JS Drum Kit</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+  <div class="keys">
+    <div data-key="65" class="key">
+      <kbd>A</kbd>
+      <span class="sound">BOI</span>
+    </div>
+    <div data-key="83" class="key">
+      <kbd>S</kbd>
+      <span class="sound">Spongebob</span>
+    </div>
+    <div data-key="68" class="key">
+      <kbd>D</kbd>
+      <span class="sound">Shrek</span>
+    </div>
+    <div data-key="70" class="key">
+      <kbd>F</kbd>
+      <span class="sound">Minecraft</span>
+    </div>
+    <div data-key="71" class="key">
+      <kbd>G</kbd>
+      <span class="sound">Alert</span>
+    </div>
+    <div data-key="72" class="key">
+      <kbd>H</kbd>
+      <span class="sound">Fortnite</span>
+    </div>
+    <div data-key="74" class="key">
+      <kbd>J</kbd>
+      <span class="sound">OOF</span>
+    </div>
+    <div data-key="75" class="key">
+      <kbd>K</kbd>
+      <span class="sound">Mission</span>
+    </div>
+    <div data-key="76" class="key">
+      <kbd>L</kbd>
+      <span class="sound">Damn !</span>
+    </div>
+  </div>
+
+  <audio data-key="65" src="sounds/BOI.mp3"></audio>
+  <audio data-key="83" src="sounds/Spongebob.mp3"></audio>
+  <audio data-key="68" src="sounds/Shrek.mp3"></audio>
+  <audio data-key="70" src="sounds/Minecraft.mp3"></audio>
+  <audio data-key="71" src="sounds/MG.mp3"></audio>
+  <audio data-key="72" src="sounds/Fortnite.mp3"></audio>
+  <audio data-key="74" src="sounds/OOF.mp3"></audio>
+  <audio data-key="75" src="sounds/mission_failed.mp3"></audio>
+  <audio data-key="76" src="sounds/Damn !.mp3"></audio>
+
+<script src="app.js"></script>
+
+</body>
+</html>
