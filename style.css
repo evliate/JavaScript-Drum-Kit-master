@@ -44,6 +44,7 @@ body,html {
 kbd {
   display: block;
   font-size: 4rem;
+  font-family: helvetica;
 }
 
 .sound {
@@ -51,6 +52,9 @@ kbd {
   text-transform: uppercase;
   letter-spacing: .1rem;
   color: #de3bea;
+  font-family: helvetica;
+  font-weight: bold;
+  text-shadow: 0.7;
 }
 
 
